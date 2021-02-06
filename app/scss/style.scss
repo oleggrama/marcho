@@ -715,7 +715,10 @@ footer {
     &__error {
         margin-top: 12px;
         color: $accent;
-        display: block;
+        display: inline-block;
+    }
+    &__text {
+        margin-bottom: 25px;
     }
 }
 
